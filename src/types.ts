@@ -7,7 +7,7 @@
 // =============================================================================
 
 export interface Env {
-	SLACK_WEBHOOK_URL: string;
+	DISCORD_WEBHOOK_URL: string;
 	CLOUDFLARE_API_TOKEN: string;
 }
 

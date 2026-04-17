@@ -15,7 +15,8 @@ export default defineWorkersProject({
 					},
 					// Provide test bindings
 					bindings: {
-						SLACK_WEBHOOK_URL: "https://hooks.slack.com/test",
+						DISCORD_WEBHOOK_URL:
+							"https://discord.com/api/webhooks/123456789/abcdef",
 						CLOUDFLARE_API_TOKEN: "test-api-token",
 					},
 				},
